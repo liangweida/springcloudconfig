@@ -62,4 +62,8 @@ ribbon:
   eager-load:
     enabled: true
     clients: vole-auth,vole-mps-service,vole-demo-service
+security:
+  user:
+    name: admin
+    password: 123456
 
