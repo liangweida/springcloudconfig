@@ -42,8 +42,6 @@ security:
     client:
       client-id: vole
       client-secret: 123456
-      user-authorization-uri: ${security.auth.server}/oauth/authorize #请求认证的地址
-      access-token-uri: ${security.auth.server}/oauth/token #请求令牌的地址
     resource:
       jwt:
         key-uri: ${security.auth.server}/oauth/token_key
