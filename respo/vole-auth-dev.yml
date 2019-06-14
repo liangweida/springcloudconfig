@@ -53,5 +53,6 @@ ignore:
     - /oauth/token_key
 security:
   user:
+    name: admin
     password: 123456
 
