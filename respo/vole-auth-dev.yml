@@ -31,11 +31,12 @@ spring:
     port: 6379
     password:
     database: 0
+    timeout: 2000
     jedis:
       pool:
         max-idle: 6
         max-active: 32
-        max-wait: 1000
+        max-wait: 100
         min-idle: 4
 
 
