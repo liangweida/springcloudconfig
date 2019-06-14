@@ -38,15 +38,13 @@ zuul:
   ribbon-isolation-strategy: thread
 
 security:
-  auth:
-    server: http://localhost:7001
   oauth2:
     client:
       client-id: vole
       client-secret: 123456
     resource:
       jwt:
-         key-uri: ${security.auth.server}/oauth/token_key #解析jwt令牌所需要密钥的地址
+         key-uri: http://localhost:7001/oauth/token_key #解析jwt令牌所需要密钥的地址
 
 ignore:
   urls:
