@@ -38,6 +38,8 @@ zuul:
   ribbon-isolation-strategy: thread
 
 security:
+  auth:
+    server: vole-auth
   oauth2:
     client:
       client-id: vole
