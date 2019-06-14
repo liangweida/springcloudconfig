@@ -45,6 +45,7 @@ security:
     resource:
       jwt:
          key-uri: http://localhost:7001/oauth/token_key #解析jwt令牌所需要密钥的地址
+      value: 123
 
 ignore:
   urls:
