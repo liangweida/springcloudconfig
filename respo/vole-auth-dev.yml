@@ -51,4 +51,7 @@ ignore:
     - /loggers/**
     - /mobile/cookie
     - /oauth/token_key
+security:
+  user:
+    password: 123456
 
